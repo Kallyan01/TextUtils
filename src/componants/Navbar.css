@@ -1,0 +1,33 @@
+.theme 
+{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.theme span
+{
+    margin: 5px;
+}
+.themeMenu
+{
+    position: absolute;
+    background: rgb(189, 182, 182);
+    height: 400px;
+    width: 300px;
+    top: 100%;
+    right: 200px;
+    transition: height .8s ease-in-out;
+    
+}
+.themeMenu::after
+{
+    position: absolute;
+    content: '';
+    background: rgb(189, 182, 182);
+    top: -10px;
+    transform: rotate(45deg);
+    right: 10%;
+    height: 30px;
+    width: 30px;
+}
